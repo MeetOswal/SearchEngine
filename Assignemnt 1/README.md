@@ -1,0 +1,22 @@
+- Files in the folder:
+- scrapper.py - this file contains all the code to run the web crawler
+- logs.csv - this file contain the pages crawled by the crawler with other detials kile time of crawl, size of pages, etc.
+- Final_Data.txt - this file contain details of total run time of crawler, total pages travelled, data size travelled, languages found.
+- samples folder - contain all the sample pages
+- google-cookie - this file is a google cookie used to search for seed pages from google
+
+- Libraries used in the assignment
+- BeautifulSoup - lib used to parse web pages and get the hyperlinks in them
+- requests - lib used to fetch pages from internet
+- re - This module provides regular expression matching operations similar to those found in Perl. It supports both 8-bit and Unicode strings.
+- time - This module provides various functions to manipulate time values.
+- urllib.robotparser - lib used to read through the robots.txt file of a web domain
+- random - lib for random variable generators.
+- landetect - lib to detect language of a web page
+- csv - lib to work with csv files
+- collections - lib which helps in working with dictionary
+- datetime - lib to get current data and time
+- googlesearch - lib to search querry from python code
+
+- To compile and run the crawler, first we nned to download required libraries using pip install.
+- Then, we need to compile the scrapper.py file and run it in the termianl or python enviornment.

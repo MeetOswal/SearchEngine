@@ -1,0 +1,8 @@
+- Seed pages of the crawler are fetched from the google search query
+- The crawler travels the queue containting the urls and fetch the page from the web
+- after fetchig the web page the code extracts all the urls from the page and store them in a dictinory with key as the domain of the url
+- From the dictinory the code takes randomly 100 or less urls and store it in the queue
+- In every interation of the code the above step are taken and the crawler is provide next link in the queue for next iteration
+- The crawler has a probability of 0.16 to save a crawled page as a sample page. In case the page is sampled the code detects the langauge of the page using Machine Learning Lib.
+- To randomize the travel of the code the queue is shuffled randomly on different interation based on the probability of shuffling that is 0.2
+- The sampled pages are stored in sample folder and logs are generated in the logs.csv file
